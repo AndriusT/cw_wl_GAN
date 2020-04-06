@@ -36,7 +36,7 @@ Note that nbodykit also requires *cython* and *mpi4py* to be installed. For more
 
 **Cloning the repository and getting the data:**
 
-Clone the repository by typing the following:
+Clone the repository:
 
 ```
 git clone https://github.com/AndriusT/cw_wl_GAN.git
@@ -59,3 +59,24 @@ wget https://drive.google.com/open?id=1LxQZODfKyDfJM1bTanHhVY98dXVpPbiw
 ```
 
 Where we used p7zip-full (sudo apt-get install p7zip-full) to extract the files.
+
+## Getting the Illustris data:
+
+To get the Illustris snapshot data (needed in the [*Preparing_Illustris_data.ipynb*](./Preparing_Illustris_data.ipynb) notebook), use the following code:
+
+```
+cd ./data/snapdir_135/
+wget -nd -nc -nv -e robots=off -l 1 -r -A hdf5 --content-disposition --header="API-Key: your-api-code-here" "http://www.illustris-project.org/api/Illustris-3/files/snapshot-135/?format=api"
+```
+
+Your personal api code has to be added to make this work. To get the code, register at the [*Illustris website*](https://www.illustris-project.org/). This will download a z = 0.0 snapshot file (21.8 GB), which can then be used to extract the dark matter and gas overdensity slices. 
+
+## Citing the code:
+
+If you use these codes in your research, please cite the following paper: 
+
+```
+Latex citation here
+```
+
+Also, please cite the [original paper](https://arxiv.org/abs/1706.02390), where the cosmoGAN algorithm was introduced. 
