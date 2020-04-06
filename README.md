@@ -55,7 +55,7 @@ To download the checkpoint files:
 ```
 cd ../checkpoints/
 wget https://drive.google.com/open?id=1LxQZODfKyDfJM1bTanHhVY98dXVpPbiw
-7z e checkpoints.7z
+7z x checkpoints.7z
 ```
 
 Where we used p7zip-full (sudo apt-get install p7zip-full) to extract the files.
