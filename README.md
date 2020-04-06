@@ -6,11 +6,15 @@ In particular it contains a variation of the original [*cosmoGAN*](https://githu
 
 The figures below illustrate some of the results produced by our code.
 
-![cosmoGAN_cw_wl_samples](./images/cosmoGAN_cw_wl_samples.png?raw=true "Samples")
+<p align="center">
+<img src="./images/cosmoGAN_cw_wl_samples.png?raw=true" width="700">
+</p>
 
 The figure below shows a few GAN-produced cosmic web slices produced using Illustris data. Namely, it shows the dark matter overdensity, gas overdensity and internal (thermal) energy fields correspondingly along with all the three mentioned components combined into an RGB array:  
 
-![illustris_GAN_samples](./images/illustris_GAN_samples.png?raw=true "Illustris GAN samples")
+<p align="center">
+<img src="./images/illustris_GAN_samples.png?raw=true" width="700">
+</p>
 
 ## How to run:
 
