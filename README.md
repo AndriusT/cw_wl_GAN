@@ -10,7 +10,7 @@ The figures below illustrate some of the results produced by our code.
 <img src="./images/cosmoGAN_cw_wl_samples.png?raw=true" width="700">
 </p>
 
-The figure below shows a few GAN-produced cosmic web slices produced using Illustris data. Namely, it shows the dark matter overdensity, gas overdensity and internal (thermal) energy fields correspondingly along with all the three mentioned components combined into an RGB array:  
+The figure below shows a few GAN-generated cosmic web slices produced using Illustris data. Namely, it shows the dark matter overdensity, gas overdensity and internal (thermal) energy fields correspondingly along with all the three mentioned components combined into an RGB array:  
 
 <p align="center">
 <img src="./images/illustris_GAN_samples.png?raw=true" width="700">
@@ -50,7 +50,7 @@ wget https://drive.google.com/open?id=10h827ENwIfqjQg3yIXF5W-5oYbKKb_Bp
 7z e data.7z
 ```
 
-To download the checkpoint files:
+The dataset includes samples of data used to train our GAN. To download the checkpoint files:
 
 ```
 cd ../checkpoints/
@@ -58,7 +58,7 @@ wget https://drive.google.com/open?id=1LxQZODfKyDfJM1bTanHhVY98dXVpPbiw
 7z x checkpoints.7z
 ```
 
-Where we used p7zip-full (sudo apt-get install p7zip-full) to extract the files.
+Where we used p7zip-full (sudo apt-get install p7zip-full) to extract the files. The checkpoints include the most recent results for weak lensing maps with different cosmological parameters along with the cosmic web slices of different redshifts, cosmologies and modified gravity paramters. 
 
 ## Getting the Illustris data:
 
