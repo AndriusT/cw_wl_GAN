@@ -79,4 +79,4 @@ If you use these codes in your research, please cite the following paper:
 Latex citation here
 ```
 
-Also, please cite the [cosmoGAN paper](https://arxiv.org/abs/1706.02390), which this work is inspired by. Also, see the [github repository](https://github.com/MustafaMustafa/cosmoGAN). 
+Also, please cite the [*cosmoGAN paper*](https://arxiv.org/abs/1706.02390), which this work is inspired by. Also, see the [*github repository*](https://github.com/MustafaMustafa/cosmoGAN). 
