@@ -58,7 +58,7 @@ wget https://drive.google.com/open?id=1LxQZODfKyDfJM1bTanHhVY98dXVpPbiw
 7z x checkpoints.7z
 ```
 
-Where we used p7zip-full (sudo apt-get install p7zip-full) to extract the files. The checkpoints include the most recent results for weak lensing maps with different cosmological parameters along with the cosmic web slices of different redshifts, cosmologies and modified gravity paramters. 
+Where we used p7zip-full (sudo apt-get install p7zip-full) to extract the files. The checkpoints include the most recent results for weak lensing maps with different cosmological parameters along with the cosmic web slices of different redshifts, cosmologies and modified gravity parameters. 
 
 ## Getting the Illustris data:
 
