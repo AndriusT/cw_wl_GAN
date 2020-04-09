@@ -42,23 +42,16 @@ Clone the repository:
 git clone https://github.com/AndriusT/cw_wl_GAN.git
 ```
 
-This contains all the key code and the required Jupyter notebooks, however, you still need to download the training data and the saved checkpoint files. To do this, navigate to the data folder and download and extract the data file: 
+This contains all the key code and the required Jupyter notebooks, however, you still need to download the [*training data*](https://drive.google.com/open?id=10h827ENwIfqjQg3yIXF5W-5oYbKKb_Bp) and the saved [*checkpoint files*](https://drive.google.com/open?id=1LxQZODfKyDfJM1bTanHhVY98dXVpPbiw). Download the files and move then to the ./data and the ./checkpoints folders correspondingly. The files can be extracted using p7zip-full (sudo apt-get install p7zip-full): 
 
 ```
 cd ./data
-wget https://drive.google.com/open?id=10h827ENwIfqjQg3yIXF5W-5oYbKKb_Bp
 7z e data.7z
-```
-
-The dataset includes samples of data used to train our GAN. To download the checkpoint files:
-
-```
 cd ../checkpoints/
-wget https://drive.google.com/open?id=1LxQZODfKyDfJM1bTanHhVY98dXVpPbiw
 7z x checkpoints.7z
 ```
 
-Where we used p7zip-full (sudo apt-get install p7zip-full) to extract the files. The checkpoints include the most recent results for weak lensing maps with different cosmological parameters along with the cosmic web slices of different redshifts, cosmologies and modified gravity parameters. 
+The checkpoints include the most recent results for weak lensing maps with different cosmological parameters along with the cosmic web slices of different redshifts, cosmologies and modified gravity parameters. The data folder includes samples of the training data used to trained our algorithm. 
 
 ## Getting the Illustris data:
 
