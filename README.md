@@ -32,7 +32,7 @@ pip install numpy
 conda install -c bccp nbodykit
 ```
 
-Note that nbodykit also requires *cython* and *mpi4py* to be installed. For more information see [*here*](https://nbodykit.readthedocs.io/en/latest/getting-started/install.html).
+If you require GPU support, install the GPU version instead: **pip install tensorflow-gpu==1.14.0** instead.
 
 **Cloning the repository and getting the data:**
 
