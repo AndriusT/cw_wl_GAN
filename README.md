@@ -42,7 +42,7 @@ Clone the repository:
 git clone https://github.com/AndriusT/cw_wl_GAN.git
 ```
 
-This contains all the key code and the required Jupyter notebooks, however, you still need to download the [*training data*](https://drive.google.com/open?id=10h827ENwIfqjQg3yIXF5W-5oYbKKb_Bp) and the saved [*checkpoint files*](https://drive.google.com/open?id=1LxQZODfKyDfJM1bTanHhVY98dXVpPbiw). Download the files and move then to the ./data and the ./checkpoints folders correspondingly. The files can be extracted using p7zip-full (sudo apt-get install p7zip-full): 
+This contains all the key code and the required Jupyter notebooks, however, you still need to download the [*training data*](https://drive.google.com/open?id=10h827ENwIfqjQg3yIXF5W-5oYbKKb_Bp) and the saved [*checkpoint files*](https://drive.google.com/open?id=1LxQZODfKyDfJM1bTanHhVY98dXVpPbiw). Download the files and move then to the ./data and the ./checkpoints folders correspondingly. The files can be extracted using p7zip-full (**sudo apt-get install p7zip-full**): 
 
 ```
 cd ./data
