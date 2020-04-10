@@ -2,7 +2,7 @@
 
 This is a code that reproduces some of the key results from the paper: **arxiv link here**. 
 
-In particular it contains a GAN algorithm that allows producing novel cosmic web slices (overdensity field in 2-D) and weak lensing convergence maps of different redshifts, cosmological parameters and modifications of gravity. In addition, the code allows producing novel, statistically realistic cosmic web slices using the publicly available Illustris data.   
+In particular, it contains a GAN algorithm that allows producing novel cosmic web slices (overdensity field in 2-D) and weak lensing convergence maps of different redshifts, cosmological parameters and modifications of gravity. In addition, the code allows producing novel, statistically realistic cosmic web slices using the publicly available Illustris data.   
 
 The figures below illustrate some of the results produced by our code.
 
