@@ -1,8 +1,7 @@
 # A GAN algorithm to produce weak lensing convergence maps and cosmic web slices: 
 
-This is a code that reproduces some of the key results from the paper: **arxiv link here**. 
 
-In particular, it contains a GAN algorithm that allows producing novel cosmic web slices (overdensity field in 2-D) and weak lensing convergence maps of different redshifts, cosmological parameters and modifications of gravity. In addition, the code allows producing novel, statistically realistic cosmic web slices using the publicly available Illustris data.   
+This repository contains a GAN algorithm that allows producing novel cosmic web slices (overdensity field in 2-D) and weak lensing convergence maps of different redshifts, cosmological parameters and modifications of gravity. In addition, the code allows producing novel, statistically realistic cosmic web slices using the publicly available Illustris data.   
 
 The figures below illustrate some of the results produced by our code.
 
@@ -66,10 +65,6 @@ Your personal api code has to be added to make this work. To get the code, regis
 
 ## Citing the code:
 
-If you use these codes in your research, please cite the following paper: 
-
-```
-Latex citation here
-```
+If you use these codes in your research, please cite this repository and the corresponding paper
 
 Also, please cite the [*cosmoGAN paper*](https://arxiv.org/abs/1706.02390), which this work is based on. Also, see the [*github repository*](https://github.com/MustafaMustafa/cosmoGAN). 
