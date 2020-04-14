@@ -68,3 +68,7 @@ Your personal api code has to be added to make this work. To get the code, regis
 If you use these codes in your research, please cite this repository and the corresponding paper
 
 Also, please cite the [*cosmoGAN paper*](https://arxiv.org/abs/1706.02390), which this work is based on. Also, see the [*github repository*](https://github.com/MustafaMustafa/cosmoGAN). 
+
+## Contacting the author: 
+
+[*Contact me*](mailto:andrius.tamosiunas@port.ac.uk) in case of any issues with the code. 
