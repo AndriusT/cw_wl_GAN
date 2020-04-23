@@ -65,7 +65,26 @@ Your personal api code has to be added to make this work. To get the code, regis
 
 ## Citing the code:
 
-If you use these codes in your research, please cite this repository and the corresponding paper
+If you use these codes in your research, please cite this repository and the corresponding paper:
+
+```
+@ARTICLE{2020arXiv200410223T,
+       author = {{Tamosiunas}, Andrius and {Winther}, Hans A. and {Koyama}, Kazuya and
+         {Bacon}, David J. and {Nichol}, Robert C. and {Mawdsley}, Ben},
+        title = "{Towards Universal Cosmological Emulators with Generative Adversarial Networks}",
+      journal = {arXiv e-prints},
+     keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics, Astrophysics - Instrumentation and Methods for Astrophysics, Physics - Computational Physics},
+         year = 2020,
+        month = apr,
+          eid = {arXiv:2004.10223},
+        pages = {arXiv:2004.10223},
+archivePrefix = {arXiv},
+       eprint = {2004.10223},
+ primaryClass = {astro-ph.CO},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2020arXiv200410223T},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+```
 
 Also, please cite the [*cosmoGAN paper*](https://arxiv.org/abs/1706.02390), which this work is based on. Also, see the [*github repository*](https://github.com/MustafaMustafa/cosmoGAN). 
 
