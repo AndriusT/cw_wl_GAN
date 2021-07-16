@@ -68,20 +68,18 @@ Your personal api code has to be added to make this work. To get the code, regis
 If you use these codes in your research, please cite this repository and the corresponding paper:
 
 ```
-@ARTICLE{2020arXiv200410223T,
-       author = {{Tamosiunas}, Andrius and {Winther}, Hans A. and {Koyama}, Kazuya and
-         {Bacon}, David J. and {Nichol}, Robert C. and {Mawdsley}, Ben},
-        title = "{Towards Universal Cosmological Emulators with Generative Adversarial Networks}",
-      journal = {arXiv e-prints},
-     keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics, Astrophysics - Instrumentation and Methods for Astrophysics, Physics - Computational Physics},
-         year = 2020,
-        month = apr,
-          eid = {arXiv:2004.10223},
-        pages = {arXiv:2004.10223},
+@ARTICLE{2021MNRAS.tmp.1635T,
+       author = {{Tamosiunas}, Andrius and {Winther}, Hans A. and {Koyama}, Kazuya and {Bacon}, David J. and {Nichol}, Robert C. and {Mawdsley}, Ben},
+        title = "{Investigating Cosmological GAN Emulators Using Latent Space Interpolation}",
+      journal = {\mnras},
+     keywords = {large-scale structure of the Universe, software: simulations, hydrodynamics, methods:numerical, Astrophysics - Cosmology and Nongalactic Astrophysics, Astrophysics - Instrumentation and Methods for Astrophysics, Physics - Computational Physics},
+         year = 2021,
+        month = jul,
+          doi = {10.1093/mnras/stab1879},
 archivePrefix = {arXiv},
        eprint = {2004.10223},
  primaryClass = {astro-ph.CO},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2020arXiv200410223T},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2021MNRAS.tmp.1635T},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 ```
@@ -90,4 +88,4 @@ Also, please cite the [*cosmoGAN paper*](https://arxiv.org/abs/1706.02390), whic
 
 ## Contacting the author: 
 
-[*Contact me*](mailto:andrius.tamosiunas@port.ac.uk) in case of any issues with the code. 
+[*Contact me*](mailto:andrius.tamosiunas@nottingham.ac.uk) in case of any issues with the code. 
