@@ -1,4 +1,4 @@
-# A GAN algorithm to produce weak lensing convergence maps and cosmic web slices: 
+# CW-WL GAN: a GAN algorithm to generate weak lensing convergence maps and cosmic web slices: 
 
 
 This repository contains a GAN algorithm that allows producing novel cosmic web slices (overdensity field in 2-D) and weak lensing convergence maps of different redshifts, cosmological parameters and modifications of gravity. In addition, the code allows producing novel, statistically realistic cosmic web slices using the publicly available Illustris data.   
